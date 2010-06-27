@@ -8,9 +8,6 @@ app = Flask(__name__)
 app.secret_key = secrets.SECRET_KEY
 
 
-FEED_URL = 'https://mail.google.com/mail/feed/atom'
-
-
 @app.route('/')
 def index():
     """Display home page"""    
